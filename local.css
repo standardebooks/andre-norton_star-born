@@ -5,10 +5,21 @@ span[epub|type~="subtitle"]{
 	font-weight: normal;
 }
 
+section[epub|type~="halftitlepage"] span[epub|type~="subtitle"]{
+	display: block;
+	font-size: .75em;
+	font-weight: normal;
+}
+
 /* All epigraphs */
 [epub|type~="epigraph"]{
 	font-style: italic;
 	hyphens: none;
+}
+
+[epub|type~="epigraph"] em,
+[epub|type~="epigraph"] i{
+	font-style: normal;
 }
 
 [epub|type~="epigraph"] cite{
@@ -50,5 +61,8 @@ section[epub|type~="epigraph"] > *{
 		margin: 0;
 	}
 
+	section[epub|type~="epigraph"] > * + *{
+		margin-top: 3em;
+	}
 }
 /* End full-page epigraphs */
