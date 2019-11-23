@@ -1,5 +1,6 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+
 span[epub|type~="subtitle"]{
 	display: block;
 	font-weight: normal;
@@ -15,10 +16,6 @@ span[epub|type~="subtitle"]{
 	margin-top: 1em;
 	font-style: normal;
 	font-variant: small-caps;
-}
-
-[epub|type~="epigraph"] cite i{
-	font-style: italic;
 }
 /* End all epigraphs */
 
@@ -49,6 +46,5 @@ section[epub|type~="epigraph"] > *{
 	section[epub|type~="epigraph"] > *{
 		margin: 0;
 	}
-
 }
 /* End full-page epigraphs */
