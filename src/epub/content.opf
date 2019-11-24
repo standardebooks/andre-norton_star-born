@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/andre-norton/star-born</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2019-11-24T20:35:18Z</dc:date>
+		<meta property="dcterms:modified">2019-11-24T20:35:18Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -39,15 +39,15 @@
 		<dc:description id="description">Two human protagonists find themselves on opposite sides of an inter-species war.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;This sequel to &lt;i&gt;The Stars Are Ours!&lt;/i&gt; was first published in 1957 by the World Publishing Company. It continues the tale of the humans who escaped an anti-intellectual Earth and founded a colony on Astra, a planet across the galaxy. Astra has a vibrant, intelligent species, as well as the ruins of a much older civilization.&lt;/p&gt;
-			&lt;p&gt;Alternating points of view each chapter, Norton weaves two stories together. We follow a 4th generation colonist, as well as a mechanic-pilot newly arrived on Astra as a member of a research mission from a recently revived Earth.&lt;/p&gt;
+			&lt;p&gt;Norton weaves two stories together by alternating points of view with each chapter. We follow a 4th generation colonist, as well as a mechanic-pilot newly arrived on Astra as a member of a research mission from a recently revived Earth.&lt;/p&gt;
 			&lt;p&gt;Each is on a journey of discovery, and they find themselves allied with opposing sides of an ongoing war between two intelligent, indigenous species.&lt;/p&gt;
 		</meta>
 		<meta property="authority" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/18458</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/000123144</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">62430</meta>
+		<meta property="se:reading-ease.flesch">70.84</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Star_Born</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/andre-norton_star-born</meta>
 		<dc:creator id="author">Andre Norton</dc:creator>
@@ -81,6 +81,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
