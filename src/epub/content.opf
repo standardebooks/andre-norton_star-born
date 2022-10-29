@@ -35,6 +35,9 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2008111729</meta>
 		<meta property="se:subject">Science Fiction</meta>
+		<meta id="collection-1" property="belongs-to-collection">Astra</meta>
+		<meta property="collection-type" refines="#collection-1">series</meta>
+		<meta property="group-position" refines="#collection-1">2</meta>
 		<dc:description id="description">Two human protagonists find themselves on opposite sides of an inter-species war.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;This sequel to &lt;i&gt;The Stars Are Ours!&lt;/i&gt; was first published in 1957 by the World Publishing Company. It continues the tale of the humans who escaped an anti-intellectual Earth and founded a colony on Astra, a planet across the galaxy. Astra has a vibrant, intelligent species, as well as the ruins of a much older civilization.&lt;/p&gt;
