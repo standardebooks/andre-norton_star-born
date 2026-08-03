@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/andre-norton/star-born</dc:identifier>
 		<dc:date>2019-11-24T20:35:18Z</dc:date>
@@ -40,12 +40,12 @@
 		<meta id="collection-1" property="belongs-to-collection">Astra</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">2</meta>
-		<dc:description id="description">Two human protagonists find themselves on opposite sides of an inter-species war.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>Two human protagonists find themselves on opposite sides of an inter-species war.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;This sequel to &lt;i&gt;The Stars Are Ours!&lt;/i&gt; was first published in 1957 by the World Publishing Company. It continues the tale of the humans who escaped an anti-intellectual Earth and founded a colony on Astra, a planet across the galaxy. Astra has a vibrant, intelligent species, as well as the ruins of a much older civilization.&lt;/p&gt;
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/andre-norton"&gt;Norton&lt;/a&gt; weaves two stories together by alternating points of view with each chapter. We follow a 4th generation colonist, as well as a mechanic-pilot newly arrived on Astra as a member of a research mission from a recently revived Earth.&lt;/p&gt;
 			&lt;p&gt;Each is on a journey of discovery, and they find themselves allied with opposing sides of an ongoing war between two intelligent, indigenous species.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/18458</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/000123144</dc:source>
