@@ -40,7 +40,7 @@
 		<meta id="collection-1" property="belongs-to-collection">Astra</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">2</meta>
-		<dc:abstract>Two human protagonists find themselves on opposite sides of an inter-species war.</dc:abstract>
+		<meta property="schema:abstract">Two human protagonists find themselves on opposite sides of an inter-species war.</meta>
 		<dc:description>
 			&lt;p&gt;This sequel to &lt;i&gt;The Stars Are Ours!&lt;/i&gt; was first published in 1957 by the World Publishing Company. It continues the tale of the humans who escaped an anti-intellectual Earth and founded a colony on Astra, a planet across the galaxy. Astra has a vibrant, intelligent species, as well as the ruins of a much older civilization.&lt;/p&gt;
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/andre-norton"&gt;Norton&lt;/a&gt; weaves two stories together by alternating points of view with each chapter. We follow a 4th generation colonist, as well as a mechanic-pilot newly arrived on Astra as a member of a research mission from a recently revived Earth.&lt;/p&gt;
